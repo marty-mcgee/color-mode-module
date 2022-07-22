@@ -41,9 +41,11 @@ You can contribute to this module online with CodeSandBox:
 
 Or locally:
 
-1. Clone this repository
-2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `yarn dev` or `npm run dev`
+1. Clone this repository (or a fork of it)
+2. [MM] Windows users: add a "package.json" file with an empty object {} to the "playground" directory
+3. Install dependencies using `yarn install` or `npm install` or `pnpm i --shamefully-hoist`
+4. [MM] Build + prepare using `yarn dev:prepare` or `npm run dev:prepare` or `pnpm i dev:prepare`
+5. Start development server using `yarn dev` or `npm run dev` or `pnpm dev`
 
 ## License
 
