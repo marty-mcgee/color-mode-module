@@ -12,7 +12,12 @@ const helper = window[globalName] as unknown as {
   removeColorScheme: (className: string) => void
 }
 
+// [MM]
+console.log("globalName", globalName)
+console.log("window", window)
+
 export default defineNuxtPlugin((nuxtApp) => {
+  console.log("helper", helper)
   const colorMode = useState<ColorModeInstance>('color-mode', () => reactive({
     // For SPA mode or fallback
     preference: helper.preference,
