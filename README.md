@@ -44,8 +44,8 @@ Or locally:
 1. Clone this repository (or a fork of it)
 2. [MM] Windows users: add a "package.json" file with an empty object {} to the "playground" directory
 3. Install dependencies using `yarn install` or `npm install` or `pnpm i --shamefully-hoist`
-4. [MM] Build + prepare using `yarn dev:prepare` or `npm run dev:prepare` or `pnpm i dev:prepare`
-5. [MM] Prepack using `yarn prepack` or `npm run prepack` or `pnpm i prepack`
+4. [MM] Build + prepare using `yarn dev:prepare` or `npm run dev:prepare` or `pnpm dev:prepare`
+5. [MM] Prepack using `yarn prepack` or `npm run prepack` or `pnpm prepack`
 6. Start development server using `yarn dev` or `npm run dev` or `pnpm dev`
 
 ## License
