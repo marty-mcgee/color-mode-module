@@ -32,7 +32,6 @@
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.6",
-    "jiti": "^1.14.0",
     "lodash.template": "^4.5.0",
     "pathe": "^0.3.2"
   },
